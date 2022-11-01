@@ -1,6 +1,6 @@
 # k8s-yaml
-```
 ## metalLB configmap
+```
 echo '
 apiVersion: v1
 kind: ConfigMap
