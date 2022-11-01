@@ -1,5 +1,5 @@
 # k8s-yaml
-
+```
 ## metalLB configmap
 echo '
 apiVersion: v1
@@ -14,3 +14,4 @@ data:
       protocol: layer2
       addresses:
       - 192.168.135.220-192.168.135.230' | kubectl apply -f -
+```
